@@ -171,11 +171,9 @@ packages:
   test_package:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: b865a58f5f4aa7db4d0e0b427a913921f813921d
-      url: "https://github.com/marshall-buck/test_package.git"
-    source: git
+      path: "packages/test_package"
+      relative: true
+    source: path
     version: "1.0.0"
   vector_math:
     dependency: transitive
