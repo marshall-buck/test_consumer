@@ -173,10 +173,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "27a7cc38daf7bf7673f0b504ac80b478cd064be9"
+      resolved-ref: "531defd791ea7871299c5547cc9d0553744eebda"
       url: "https://github.com/marshall-buck/test_package.git"
     source: git
-    version: "1.0.0"
+    version: "1.0.1"
   vector_math:
     dependency: transitive
     description:
