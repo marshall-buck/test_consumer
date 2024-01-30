@@ -173,7 +173,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "531defd791ea7871299c5547cc9d0553744eebda"
+      resolved-ref: "96c4d3dc6dda628cc527e9dc8be275b0ff09516e"
       url: "https://github.com/marshall-buck/test_package.git"
     source: git
     version: "1.0.1"
