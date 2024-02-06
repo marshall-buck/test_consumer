@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:test_package/test_package.dart';
+import 'package:usda_db_package/usda_db_package.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final DB db = DB();
+  final UsdaDB db = UsdaDB();
   await db.init();
   // ignore: avoid_print
-  print('Data: ${db.fakeDataData}');
+  // print('Data: ${await db.getAutocompleteResults('apple')}');
+  print(db.getFood(173935));
   runApp(const MyApp());
 }
 
